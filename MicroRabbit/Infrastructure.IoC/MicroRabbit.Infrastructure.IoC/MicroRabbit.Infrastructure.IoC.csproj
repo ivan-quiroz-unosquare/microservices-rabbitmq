@@ -12,6 +12,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure.Bus\MicroRabbit.Infrastructure.Bus\MicroRabbit.Infrastructure.Bus.csproj" />
+    <ProjectReference Include="..\..\Services\Banking\Application\MicroRabbit.Banking.Application\MicroRabbit.Banking.Application.csproj" />
+    <ProjectReference Include="..\..\Services\Banking\Data\MicroRabbit.Banking.Data\MicroRabbit.Banking.Data.csproj" />
+    <ProjectReference Include="..\..\Services\Banking\Domain\MicroRabbit.Banking.Domain\MicroRabbit.Banking.Domain.csproj" />
   </ItemGroup>
 
 </Project>
