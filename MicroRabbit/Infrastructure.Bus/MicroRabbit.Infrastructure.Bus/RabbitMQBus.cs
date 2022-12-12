@@ -27,7 +27,7 @@ namespace MicroRabbit.Infrastructure.Bus
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
-            
+
             var eventName = @event.GetType().Name;
 
             channel.QueueDeclare(eventName, false, false, false, null);
